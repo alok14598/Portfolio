@@ -1,0 +1,14 @@
+.story{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    margin-bottom: 30px;
+}
+.storyContainer{
+    width: 100%;
+    max-width: 1200px;
+}
+.modify{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

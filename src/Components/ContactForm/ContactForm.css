@@ -1,0 +1,87 @@
+.ContactForm {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 50px);
+}
+.ContactFormContainer{
+    width: 100%;
+    max-width: 1200px;
+}
+.input1{
+    display: flex;
+    gap: 10px;  
+    margin-top: 20px;  
+
+}
+.input11{
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    height: 40px;
+    font-size: 20px;
+    
+    background: rgb(235, 235, 235);
+}
+.input12{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    height: 40px;
+    font-size: 20px;
+ 
+    background: rgb(235, 235, 235);
+}
+.input13{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 20px;
+   
+    font-size: 20px;
+    height: 300px;
+
+    overflow: auto; 
+    border: none;
+      resize: none;
+
+    background: rgb(235, 235, 235);
+    
+    &::-webkit-scrollbar {
+        display: none;
+      }
+ 
+}
+.SendButton{
+    margin-top: 20px;
+    width: 100%;
+    background: rgb(36, 38, 47);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+
+}
+input:focus{
+    outline: 2px solid rgb(110, 6, 242);;     /* oranges! yey */
+  }
+  .input13:focus{
+    outline: 2px solid rgb(110, 6, 242);;     /* oranges! yey */
+  }
+  .message{
+    color: green;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+  }
+  .notmessage{
+    color: red;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+  }

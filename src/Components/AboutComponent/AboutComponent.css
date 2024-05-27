@@ -1,0 +1,36 @@
+.about{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+  
+}
+
+
+.aboutContainer{
+    width: 100%;
+    max-width: 1200px;
+   
+    display: flex;
+    flex-direction: column;
+}
+.aboutmodify{
+    font-family: "Poppins", "Poppins Placeholder", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+   
+    color: rgb(78, 82, 90);
+    font-size: 25px;
+}
+.row{
+    height: 52px;
+    width: 10px;
+    background-color:rgb(110, 6, 242);
+    padding-left: 0%;
+}
+.aboutdescription{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}

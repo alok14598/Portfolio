@@ -1,0 +1,100 @@
+.header{
+    display: flex;
+    justify-content: center;
+    height:calc(100vh - 92px);
+  
+    align-items: center;
+}
+.headerContainer{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.profileText{
+    width: 50%;
+}
+.welcome{
+    font-size: 24px;
+    color: rgb(78, 82, 90);
+}
+.title{
+    font-size: 70px;
+    
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+.midtitle{
+    color:rgb(110, 6, 242);
+   
+      
+      
+}
+.description{
+    font-family: "Poppins", "Poppins Placeholder", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: large;
+  color: rgb(78, 82, 90);
+
+}
+.Mainbuttons{
+    display: flex;
+    gap:10px
+}
+button{
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.projectsbutton{
+    color: rgb(221, 223, 227);
+    background-color:rgb(119, 119, 122);
+    font-size: 15px;
+    font-weight: 100;
+    font-style: normal;
+}
+.contactbutton{
+    color: white;
+    background-color: rgb(36, 38, 47);
+    font-size: 15px;
+    font-weight: 100;
+    font-style: normal;
+}
+.profileImage{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.profilepic{
+   width: 70%;
+   height: 90%;
+    
+    border: 1px solid rgb(36, 38, 47);
+    border-radius: 50%;
+}
+.mainpic{
+    padding-left: 47px;
+    padding-right: 52px;
+    margin-top: 28px;
+    overflow: hidden;
+}
+.resumebutton{
+    font-size: 15px;
+    font-weight: 100;
+    font-style: normal;
+    color: white;
+    background-color: rgb(86, 87, 90);
+}

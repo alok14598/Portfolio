@@ -1,0 +1,31 @@
+.Footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.FooterContainer{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.extra{
+    padding-top: 20px;
+}
+label{
+    font-weight: 500;
+}
+.descriptions{
+    font-family: "Poppins", "Poppins Placeholder", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: large;
+  color: rgb(78, 82, 90);
+
+}
+.footertext{
+    padding-top: 80px;
+}

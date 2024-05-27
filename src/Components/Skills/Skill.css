@@ -1,0 +1,40 @@
+.skills{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+.skillContainer{
+    width: 100%;
+    max-width: 1200px;
+}
+.skilltitle{
+    font-size: 50px;
+    color:#24262f;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+.dot{
+    color:rgb(110, 6, 242);
+    border-radius: 50%;
+    overflow: hidden;
+
+   
+      
+      
+}
+.SkillSection{
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    font-family: "Poppins", "Poppins Placeholder", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: large;
+  color: rgb(78, 82, 90);
+  margin-bottom: 10px;
+}

@@ -1,0 +1,44 @@
+.Experience {
+    display: flex;
+    justify-content: center;
+
+}
+.ExperienceContainer{
+    width: 100%;
+    max-width: 1200px;
+
+}
+.experimenttitle{
+    font-size: 70px;
+    color:#24262f;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+.companyDescription{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.company{
+    font-weight: 500;
+    font-size: 20px;
+}
+.companyname {
+    color:rgb(110, 6, 242);
+    font-size: 20px;
+}
+.companytime {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.projectDesc{
+    display: flex;
+    align-items: center;
+}
+.tick {
+    color:rgb(110, 6, 242);
+}
+.modification {
+    margin-left: 10px;
+}
